@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>CRUD__With_Layered.Repositories</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRUD_ With_Layered.Database\CRUD_ With_Layered.Database.csproj" />
+    <ProjectReference Include="..\CRUD_ With_Layered.Model\CRUD_ With_Layered.Model.csproj" />
+  </ItemGroup>
+
+</Project>

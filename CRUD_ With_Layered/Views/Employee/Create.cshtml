@@ -1,0 +1,31 @@
+﻿@model EmployeeCreateViewModel
+<div class="card">
+    <div class="card-header">
+        <h1 class="card-title">Student Create</h1>
+    </div>
+    <div class="card-body">
+        <form method="post">
+            <div>
+                <label for="DepartmentId">Department Catagory</label>
+                <select type="text" asp-for="DepartmentId" asp-items="Model.DepartmentItems" class="form-control">
+                    <option value="">Select...</option>
+                </select>
+                <span asp-validation-for="DepartmentId" class="alert-danger"></span>
+            </div>
+            <label for="Name">Name</label>
+            <input type="text" id="Name" name="Name" class="form-control" />
+
+            
+
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email" class="form-control" />
+
+            <label for="Salary">Salary</label>
+            <input type="text" id="Salary" name="Salary" class="form-control" />
+            <br /><br />
+            <input type="submit" value="Save" class="btn btn-primary">
+        </form>
+
+
+    </div>
+</div>

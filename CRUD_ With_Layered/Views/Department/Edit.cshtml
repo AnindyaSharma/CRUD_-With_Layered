@@ -1,0 +1,20 @@
+﻿@model CRUD__With_Layered.Model.EntityModels.Department
+
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="card-title">Department Edit</h1>
+            </div>
+            <div class="card-body">
+                <form asp-action="Edit" asp-controller="Department" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <label for="Name">Name</label>
+                    <input asp-for="Name" type="text" class="form-control" />
+                    <br />
+                    <input type="submit" value="Save" class="btn btn-primary">
+                </form>
+
+
+            </div>
+        </div>
+    </div>

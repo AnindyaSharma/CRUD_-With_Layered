@@ -1,0 +1,60 @@
+﻿@*@using CRUD__With_Layered.Model.EntityModels*@
+@model DepByEmpViewModel
+
+
+<div class="card">
+    <div class="card-header">
+        <h1 class="card-title">Employee List by Department</h1>
+    </div>
+    <div class="card-body">
+        @if (Model.Employees == null)
+        {
+            <form asp-action="GetAllById" asp-controller="Employee" method="post">
+                @*<input type="hidden" asp-for="Id" />*@
+
+                <div>
+                    <label for="DepartmentId">Department Catagory</label>
+                    <select type="text" asp-for="DepartmentId" asp-items="Model.DepartmentItems" class="form-control">
+                        <option value="">Select...</option>
+                    </select>
+                    <span asp-validation-for="DepartmentId" class="alert-danger"></span>
+                </div>
+                <br />
+                <input type="submit" value="Scarch" class="btn btn-primary">
+            </form>
+        }
+
+        @if (Model.Employees != null)
+        {
+            <table class="table table-striped table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Salary</th>
+                        <th>Department</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var employee in Model.Employees)
+                    {
+                        <tr>
+                            <td>@employee.Name</td>
+                            <td>@employee.Email</td>
+                            <td>@employee.Salary</td>
+                            <td>@(employee.Department == null ? "N/A" : employee.Department.Name)</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@employee.Id" type="button" class="btn btn-outline-warning">Edit</a> |
+                                <a asp-action="Delete" asp-route-id="@employee.Id" type="button" class="btn btn-outline-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
+
+    </div>
+</div>

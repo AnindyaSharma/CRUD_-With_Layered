@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CRUD_ With_Layered.Model/1.0.0": {
+        "runtime": {
+          "CRUD_ With_Layered.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CRUD_ With_Layered.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,33 @@
+﻿@model EmployeeEditViewModel
+
+<div class="card">
+    <div class="card-header">
+        <h1 class="card-title">Employee Edit</h1>
+    </div>
+    <div class="card-body">
+        <form asp-action="Edit" asp-controller="Employee" method="post">
+            <input type="hidden" asp-for="Id" />
+
+            <div>
+                <label for="DepartmentId">Department Catagory</label>
+                <select type="text" asp-for="DepartmentId" asp-items="Model.DepartmentItems" class="form-control">
+                    <option value="">Select...</option>
+                </select>
+                <span asp-validation-for="DepartmentId" class="alert-danger"></span>
+            </div>
+
+            <label for="Name">Name</label>
+            <input asp-for="Name" type="text" class="form-control" />
+
+            <label for="Email">Email</label>
+            <input asp-for="Email" type="text" class="form-control" />
+
+            <label for="Salary">Salary</label>
+            <input asp-for="Salary" type="text" class="form-control" />
+
+            <input type="submit" value="Save" class="btn btn-primary">
+        </form>
+
+
+    </div>
+</div>

@@ -1,0 +1,32 @@
+﻿@using CRUD__With_Layered.Model.EntityModels
+@model List<CRUD__With_Layered.Model.EntityModels.Department>
+
+    <div class="col-sm-8">
+        <h1>Customer List</h1>
+        <p>
+            <a type="button" class="btn btn-primary , collapse-item" asp-controller="Department" asp-action="Create">Add Product</a>
+        </p>
+        <table class="table table-striped table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+
+
+            </thead>
+            <tbody>
+
+                @foreach (Department department in Model)
+                {
+                    <tr>
+                        <td>@department.Name</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@department.Id" class="btn btn-primary productEdit">Edit</a> |
+                            <a asp-action="Delete" asp-route-id="@department.Id" class="btn btn-danger productDelete">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>

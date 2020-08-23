@@ -1,0 +1,16 @@
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered\CRUD_ With_Layered.Model\bin\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.deps.json
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered\CRUD_ With_Layered.Model\bin\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.dll
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered\CRUD_ With_Layered.Model\bin\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.pdb
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.csprojAssemblyReference.cache
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.AssemblyInfoInputs.cache
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.AssemblyInfo.cs
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.dll
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.pdb
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered2\CRUD_ With_Layered\CRUD_ With_Layered.Model\bin\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.deps.json
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered2\CRUD_ With_Layered\CRUD_ With_Layered.Model\bin\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.dll
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered2\CRUD_ With_Layered\CRUD_ With_Layered.Model\bin\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.pdb
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered2\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.csprojAssemblyReference.cache
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered2\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.AssemblyInfoInputs.cache
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered2\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.AssemblyInfo.cs
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered2\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.dll
+C:\Users\Anindya Sharma\Desktop\ASP.NET Exc\CRUD_ With_Layered2\CRUD_ With_Layered\CRUD_ With_Layered.Model\obj\Debug\netcoreapp3.1\CRUD_ With_Layered.Model.pdb
